@@ -12,9 +12,21 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+      
     }
 
+    @IBAction func showLoader(_ sender: Any) {
 
+        CHLoader.shared.startAnimate()
+        
+    }
+    
+  
+    
+    @IBAction func HideLoader(_ sender: Any) {
+        CHLoader.shared.stopAnimate()
+    }
+    
+    
 }
 

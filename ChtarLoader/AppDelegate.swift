@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+      
+        
+        //        CHLoader.shared.loaderWidth =  100
+        //        CHLoader.shared.loaderHeight = 100
+        //        CHLoader.shared.type = CHLoaderType.FlightPlane
+        //        CHLoader.shared.gifName = "Bar"
+        //        CHLoader.shared.backGroundColor = UIColor.black
+        //        CHLoader.shared.shadowColor = UIColor.white
+
         return true
     }
 
