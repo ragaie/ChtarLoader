@@ -8,7 +8,7 @@
 
 import UIKit
 import WebKit
-class CHLoader: NSObject {
+open class CHLoader: NSObject {
     
     static var shared : CHLoader = CHLoader()
     private var loaderView : WKWebView!
