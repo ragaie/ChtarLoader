@@ -10,7 +10,7 @@ import UIKit
 import WebKit
 open class CHLoader: NSObject {
     
-    static var shared : CHLoader = CHLoader()
+   public static var shared : CHLoader = CHLoader()
     private var loaderView : WKWebView!
     
     private  var  plurView : UIView!
@@ -68,16 +68,17 @@ open class CHLoader: NSObject {
         plurView.backgroundColor = backGroundColor
         plurView.layer.cornerRadius = cornerValue
         var  url : URL!
-        if gifName != ""{
-            url = Bundle.main.url(forResource: gifName, withExtension: "gif")!
+     
+        
+          if gifName != ""{
+            url = Bundle.init(for: self.classForCoder).url(forResource: gifName, withExtension: "gif")!
             
-        }
-        else {
-            
-            url = Bundle.main.url(forResource: type.rawValue, withExtension: "gif")!
-            
-        }
-        // let url = Bundle.main.url(forResource: type.rawValue, withExtension: "gif")!
+            }
+            else {
+
+                     url =     Bundle.init(for: self.classForCoder).url(forResource: type.rawValue, withExtension: "gif")
+
+            }
         let data = try! Data(contentsOf: url)
         loaderView.layer.cornerRadius = 10
         // loaderView.scalesPageToFit = true
