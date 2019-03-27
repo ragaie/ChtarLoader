@@ -37,6 +37,10 @@ you can custom it shared point in starting of app
 
 ```
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions:   [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+            // Override point for customization after application launch.
+
+          return true
+    }
 ```
 
 
@@ -62,8 +66,7 @@ you can custom it shared point in starting of app
         
         CHLoader.shared.height = 50
         CHLoader.shared.width = 50
-        return true
-    }
+  
     
     
 # Find more free gif loader in this website
