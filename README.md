@@ -1,7 +1,7 @@
 # ChtarLoader
 Simple loader indicator based gif files  for iOS app, available for iPhone app or iPad.<br />
 That you can full custom it as you which.<br />
-With one object in all app for loader, using singletone design pattern.<br />
+With one object in all app for loader, using singleton design pattern.<br />
 
 # Let's start first by install cocoaPod
  
