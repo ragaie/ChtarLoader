@@ -3,15 +3,17 @@ Simple loader indicator based gif for iOS app, available for iPhone app or iPad.
 That you can full custom it as you which.<br />
 With one object in all app for loader, using singletone design pattern.<br />
 
-# Let's start first by install 
-   ```
-   By cocoaPod 
+# Let's start first by install cocoaPod
+ 
    cd to your project folder 
+   ```
    pod init
-   
-   add to pod file for your target --> 
-   
+   ```
+   Add to pod file for your target
+   ```
    pod 'ChtarLoader'
+   ```
+   ```
    run pod update , or pod install
    ```
 # how used it in Code to using it 
@@ -19,10 +21,13 @@ By default configure you will get this loader type
 ![Screenshot](https://github.com/ragaie/ChtarLoader/blob/master/ChtarLoader/Screen%20Shot%202019-03-21%20at%2013.37.01.png) 
 ```
    import ChtarLoader
-
+```
 //to show loader in center of screen automatic 
+```
     CHLoader.shared.startAnimate()
+```
 //to hide loader 
+```
     CHLoader.shared.stopAnimate()
 ```
 
@@ -31,16 +36,27 @@ you can custom it shared point in starting of app
 
 ```
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions:   [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+```
         // Override point for customization after application launch.
+        
         //change loader background color
+        ```
         CHLoader.shared.backGroundColor = UIColor.black
+        ```
         //change shadow loader 
+        ```
         CHLoader.shared.shadowColor = UIColor.white
+        ```
         //change type of loader based some gif file in library 
+        ```
         CHLoader.shared.type = CHLoaderType.Bars
+        ```
         //or you can add your loader gif and just use name of it 
+        ```
         CHLoader.shared.gifName = "LoaderGif"
+        ```
         // change height and width as you like based your gif size
+        ```
         CHLoader.shared.height = 50
         CHLoader.shared.width = 50
         return true
