@@ -44,36 +44,27 @@ you can custom it shared point in starting of app
     }
 ```
 
-  // Override point for customization after application launch.
-  //change loader background color
+  
+        // Override point for customization after application launch.
+        //change loader background color
       
-        ```
         CHLoader.shared.backGroundColor = UIColor.black
-        ```
-        
+      
         //change shadow loader 
-        
-        ```
         CHLoader.shared.shadowColor = UIColor.white
-        ```
+        
         
         //change type of loader based some gif file in library 
-        ```
         CHLoader.shared.type = CHLoaderType.Bars
-        ```
         
-        //or you can add your loader gif and just use name of it 
         
-        ```
+        //or you can add your loader gif and just use name of it
         CHLoader.shared.gifName = "LoaderGif"
-        ```
+        
         
         // change height and width as you like based your gif size
-        
-        ```
         CHLoader.shared.height = 50
         CHLoader.shared.width = 50
-        ```
   
     
     
