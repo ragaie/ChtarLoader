@@ -87,10 +87,10 @@ you can custom it shared point in starting of app
 
 ## Cocoapods:- 
 
- 🚀  ChtarLoader (0.0.6) successfully published
- 📅  March 21st, 17:26
- 🌎  https://cocoapods.org/pods/ChtarLoader
- 👍  Tell your friends!
+ 🚀  ChtarLoader (0.0.6) successfully published<br />
+ 📅  March 21st, 17:26<br />
+ 🌎  https://cocoapods.org/pods/ChtarLoader<br />
+ 👍  Tell your friends!<br />
 
 ## MIT License
 
