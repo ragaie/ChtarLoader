@@ -84,6 +84,14 @@ you can custom it shared point in starting of app
 ## You can find me in linked in:- 
 - [Ragaie alfy](www.linkedin.com/in/ragaie-alfy)
 
+
+## Cocoapods:- 
+
+ 🚀  ChtarLoader (0.0.6) successfully published
+ 📅  March 21st, 17:26
+ 🌎  https://cocoapods.org/pods/ChtarLoader
+ 👍  Tell your friends!
+
 ## MIT License
 
 Copyright (c) 2019 Ragaie alfy fahmey
